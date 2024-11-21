@@ -16,7 +16,7 @@
         "temp": 16.09,
         "feels_like": 15.77,
         "temp_min": 16.09,
-        "temp_max": 16.09,
+        "temp_max": 18.09,
         "pressure": 1014,
         "humidity": 77,
         "sea_level": 1014,
@@ -24,7 +24,7 @@
     },
     "visibility": 1600,
     "wind": {
-        "speed": 0,
+        "speed": 2,
         "deg": 0
     },
     "clouds": {
