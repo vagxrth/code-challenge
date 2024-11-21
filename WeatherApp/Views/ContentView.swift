@@ -11,8 +11,12 @@ struct ContentView: View {
     @StateObject var locationManager = LocationManager()
     
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            WelcomeView()
+                .environmentObject(locationManager)
+        }
+        .background(Color.black.opacity(0.1))
+        .preferredColorScheme(.dark)
     }
 }
 
