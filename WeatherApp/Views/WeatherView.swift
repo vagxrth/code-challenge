@@ -81,7 +81,7 @@ struct WeatherView: View {
                         
                         Spacer()
                         
-                        WeatherRow(logo: "humidity", name: "Humidity    ", value: (weather.main.humidity.roundDouble() + "%"))
+                        WeatherRow(logo: "humidity.fill", name: "Humidity    ", value: (weather.main.humidity.roundDouble() + "%"))
                     }
                     
                 }
