@@ -15,7 +15,7 @@ extension Double {
 }
 
 extension View {
-    func corenrRadius(radius: CGFloat, corners: UIRectCorner) -> some View {
+    func cornerRadius(radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape(RoundedCorner(radius: radius, corners: corners))
     }
 }
